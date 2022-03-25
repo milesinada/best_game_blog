@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}Home{% endblock title %}
+
+
+
+{% block content %}
+<div class="welcome">
+    <img src="https://media.giphy.com/media/Kl1ywyDrt8mbe/giphy.gif" alt="">
+    <div class="welcome-content" >
+        <h1>Hey, Gamer!</h1>
+        <h3>So you finally decided to show yourself. Post your argument about why you think your game is the best, or simply find out why my game is the best. Be warned, all posts are open to be deleted/edited at any time! It truly is a fight!</h3> 
+        <p><a class="btn btn-warning" href="{% url 'about' %}">Click Here</a> if you dare</p>
+
+        </div>
+
+    </div>
+{% endblock content %}

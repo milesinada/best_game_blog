@@ -1,0 +1,15 @@
+body{
+    color: white;
+}
+h1{
+    text-align: center;
+}
+.cards{
+    justify-content: center;
+    display: inline-flex;
+    margin: 40px 20px 20px 40px;
+    transition: transform .5s;
+}
+.cards:hover{
+    transform: scale(1.05);
+}

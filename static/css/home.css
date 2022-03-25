@@ -1,0 +1,22 @@
+.welcome{
+    background-image: url(https://media.giphy.com/media/Kl1ywyDrt8mbe/giphy.gif);
+    padding: 10%;
+    position: absolute;
+    text-align: center;
+    color: white;
+    height: 1000px;
+    z-index: 0;
+    
+}
+.welcome h1 {
+    color: black;
+}
+.welcome-content{
+    margin: -35% 5% ;
+    padding: 50px;
+    position: relative;
+    text-align: center;
+    background-color: #ff0000;
+    z-index: 1;
+
+}
