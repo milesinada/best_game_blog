@@ -10,15 +10,15 @@
     <div class="about">
         <h1>About the blog</h1>
         <p>This is a blog about why the game(s) you play is superior to all other games!</p>
-        <h6>(there's a hover element ⤵️)</h6>
+        <a href="{% url 'home' %}"><h6>(Click here if you can't handle the heat)</h6></a>
         
     </div>
     <div class="about-content">
         <h6>All posts are open to be deleted and edited at any time! The community here is ruthless!</h6>
         <h2>ROUND ONE</h2>
         <h2>FIGHT!</h2>
-        <p>(Click the gif)</p>
-        <a href="{% url 'post_new' %}"><img src="https://media.giphy.com/media/7ywpENs4MoQko/giphy.gif" alt="fighters.gif"></a>
+        <p>(Click the gif or check above)</p>
+        <a href="{% url 'login' %}"><img src="https://media.giphy.com/media/7ywpENs4MoQko/giphy.gif" alt="fighters.gif"></a>
 
     </div>
 {% endblock content %}
