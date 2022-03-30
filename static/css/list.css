@@ -17,3 +17,7 @@ h1{
 .card{
     background-image: url('../img/gamepaper.png');
 }
+.card-body{
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
