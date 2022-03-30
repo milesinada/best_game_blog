@@ -9,7 +9,11 @@ h1{
     display: inline-flex;
     margin: 40px 20px 20px 40px;
     transition: transform .5s;
+    color: white;
 }
 .cards:hover{
     transform: scale(1.05);
+}
+.card{
+    background-image: url('../img/gamepaper.png');
 }

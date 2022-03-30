@@ -5,18 +5,17 @@
 
 {% block content %}
 <h1>Posts</h1>
-
     {% for post in post_list %}
 
 <div class="cards">
     <div class="card" style="width: 18rem;">
         <div class="card-body">
-            <h6 class="card-title text-dark">Post #: {{ post.id }}</h6>
-            <h5 class="card-title text-dark">Title: {{ post.title }}</h5>
-            <h6 class="card-subtitle mb-2 text-muted text-dark">Author: {{ post.Author }}</h6>
-            <p>{{post.body|truncatechars:50}}</p>
-            <p>{{ post.created_on }}</p>
-            <a href="{% url 'post_detail' post.id %} " class="card-link text-dark">Read More</a>
+            <h6 class="card-title text-light">Post #: {{ post.id }}</h6>
+            <h5 class="card-title text-light">Title: {{ post.title }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted text-light">Author: {{ post.Author }}</h6>
+            <p class="card-subtitle mb-2 text-muted text-light">{{post.body|truncatechars:50}}</p>
+            <p class="card-subtitle mb-2 text-muted text-light">{{ post.created_on }}</p>
+            <a href="{% url 'post_detail' post.id %} " class="card-link text-light">Read More</a>
         </div>
     </div>
 </div>
